@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    min-height: 100vh;
+
+
+}
+
+.header {
+    background: url(/img/bg.png) center center no-repeat;
+    background-size: 100%;
+    padding-top: 44px;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.menu a {
+    margin-right: 100px;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2.52px;
+    text-decoration: none;
+    margin-right: 102px;
+}
+
+.menu a:last-child{
+    margin-right: 0;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1{
+    color: #ffffff;
+    font-size: 100px;
+    margin-top: 170px;
+    
+    
+}
+
+.header-text p {
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 4.2px;
+}
+
+.header button {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    margin-top: 20px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    transition: ease-in .25s all;
+
+}
+
+.header button:hover{
+    color: black;
+    background-color: #fff;
+    border-color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.about-text .name_about {
+    color: #c4c4c4;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+    margin-top: 100px;
+}
+
+.about-text h2 {
+    color: #000000;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+    margin-top: 32px;
+    margin-bottom: 54px;
+}
+
+.about-text p {
+    color: #5b5b5c;
+    font-size: 22px;    /* Text style for "Lorem ipsu" */
+    letter-spacing: 3.08px;
+    margin-bottom: 54px;
+}
+
+.about img {
+    margin-top: 100px;
+    width: 460px;
+    height: 645px;
+    
+    
+    
+}
+
+.about-text button {
+    cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2.52px;
+    margin-top: 20px;
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    transition: ease-in .25s all;
+}
+
+.about-text button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+.photo-travel{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.photos-text h2 {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+    margin-top: 250px;
+}
+
+.photos-text p {
+    display: flex;
+    justify-content: center;
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+    margin-top: 36px;
+    margin-bottom: 97px;
+}
+
+.photos {
+margin-top: 90px;
+}
+
+.photo-travel img {
+margin: 10px;
+}
+
+
+
+
+
+.company {
+    margin-top: 250px;
+}
+
+.company-text {
+    text-align: center;
+}
+
+.company-text h2 {
+    color: #000000;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 7.2px;
+}
+
+.company-text p {
+    color: #5b5b5c;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 4.2px;
+    margin-top: 36px;
+    margin-bottom: 65px;
+}
+
+.company-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.company-block{
+    margin-right: 50px;
+}
+
+.company-block img {
+    margin-bottom: 50px;
+}
+
+.company-block-1 {
+    margin-right: 10px;
+}
+
+.company-block h3 {
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.company-block p {
+    color: #848484;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.company-block button {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    padding: 0px 15px;
+    background-color: #dddcdc;
+    transition: ease-in .25s all;
+}
+
+.company-block button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+.next-tour {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.next-tour img {
+    margin-top: 150px;
+}
+
+.adventure {
+    margin-top: 250px;
+    margin-right: 0px;
+}
+
+.adventure span {
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 3.08px;
+}
+
+.adventure h2 {
+    color: #000000;
+    font-size: 26px;
+    line-height: 41px;
+    text-transform: uppercase;    /* Text style for "UNFORGETTA" */
+    letter-spacing: 4.2px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.adventure p {
+    color: #5b5b5c;    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;    /* Text style for "Lorem ipsu" */
+    letter-spacing: 3.08px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+.letter {
+    background-color: #f4f4f4;
+    padding: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+
+.letter-text h2 {
+    color: #000000;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+}
+
+.letter-text p {
+    display: flex;
+    justify-content: center;
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input {
+    color: #3a4047;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3.08px;
+    border: 2px solid #7a7a7a;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+form button {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    background-color: #3A4047;
+    padding: 11px 80px;
+    border: none;
+
+}
+
+
+
+
+
+.travel {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 90px;
+    min-height: 60vh;
+}
+
+.footer {
+    padding: 90px 0;
+}
+
+.footer a {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    border: none;
+    background-color: #fff;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+.footer a:last-child{
+    margin-right: 0;
+}
+
+.travel p {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.12px;
+
+
+}
